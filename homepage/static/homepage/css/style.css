@@ -1,0 +1,193 @@
+.textoaboutus {
+    color: rgb(255, 255, 255);
+}
+
+.titulo-aboutus {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.img-about {
+    border-radius: 20px;
+}
+
+.carousel-caption {
+    color: #05b3b3;
+}
+
+.color-cont {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.titulo-main {
+    text-align: center;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container-2 {
+        width: 1000px;
+    }
+}
+
+.accordion-button {
+    color: #2e81fd;
+    font-weight: 600;
+}
+
+.accordion-collapse {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.buttons {
+    min-width: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    position: relative;
+    top: -29px;
+    right: -100px;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+.buttons-2 a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons-2 a:hover {
+    transform: scale(1.2);
+}
+
+.accordion-collapse {
+    color: #0f1e27;
+    background-color: rgb(255, 255, 255);
+}
+
+.fila-botones- {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-main {
+    color: #314652;
+    font-weight: 600;
+}
+
+.titulo-aboutus {
+    font-weight: 600;
+}
+
+.copyright {
+    font-size: small;
+}
+
+form .error {
+    color: #ff0000;
+}
+
+
+/* 
+.carousel {
+    font-family: 'Trebuchet MS';
+    font-size: 1rem;
+    position: relative;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #444, #1a1a1a);
+    border-radius: 10px;
+} */
+
+.carousel-img {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+/*
+.carousel, .carousel * { box-sizing: content-box; }
+.carousel ul {
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	height: calc(100% - (1rem * 2));
+	margin: 0;
+	width: calc(100% - (1rem * 2));
+}
+.carousel li {
+	top: 25px;
+	transition: .4s;
+	left: 0;
+	border: solid 0px black;
+	cursor: pointer;
+	position: absolute;
+	background-repeat: no-repeat;
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	border-radius: 10px;
+	opacity: .4;
+}
+.carousel li:hover { opacity: 1; }
+.carousel .on {
+	top: 0;
+	opacity: 1;
+	box-shadow: 0 6px 22px #222;
+}
+.carousel li div {
+	width: 100%;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	border-radius: 10px;
+	opacity: 0;
+	transition: .4s;
+}
+.carousel .on div { opacity: 1; }
+.carousel h3 {
+	margin: 0 0 10px 0;
+	font-size: 1.6rem;
+	padding: .5rem 1rem;
+	background: #ccc;
+	color: #00659d;
+}
+.carousel p {
+	color: #333;
+	line-height: 1rem;
+	padding: 0 1rem;
+}
+.carousel p a {
+	color: #a9e100;
+	text-decoration: none;
+} */

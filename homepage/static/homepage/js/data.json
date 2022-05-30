@@ -1,0 +1,32 @@
+[
+	{
+		"bgImgURL": "torre-eiffel-v2.jpg",
+		"headline": "Recuerdos",
+		"caption": "Acá se aprecia un recuerdo del famoso monumento parisino, la torre Eiffel."
+	},
+	{
+		"bgImgURL": "hitbox-v2.jpg",
+		"headline": "Proyectos DIY",
+		"caption": "Puedes personalizar fácilmente tus proyectos personales, acá se aprecia una caja impresa para contener un proyecto electrónico."
+	},
+	{
+		"bgImgURL": "gato_creando-v2.jpg",
+		"headline": "Juguetes para mascotas",
+		"caption": "Puedes crear juguetes para los más regalones de la casa, viendose acá un juguete con bola para gatos."
+	},
+	{
+		"bgImgURL": "llaveros-v2.jpg",
+		"headline": "Merchandising para empresas",
+		"caption": "Podemos personalizar llaves, tarjetas y productos para promocionar tu pyme o empresa."
+	},
+	{
+		"bgImgURL": "pikachu-v2.jpg",
+		"headline": "Figuras coleccionables",
+		"caption": "Cualquier figura puede ser impresa para regalo a grandes y chicos."
+	},
+	{
+		"bgImgURL": "posavasos-v2.jpg",
+		"headline": "Objetos de escritorio personalizados",
+		"caption": "También se pueden crear objetos para uso diario, tal como posavasos, portalápices, etc."
+	}
+]
