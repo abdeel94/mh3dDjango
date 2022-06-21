@@ -44,7 +44,14 @@ INSTALLED_APPS = [
     'crispy_forms',
     'rest_producto',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
 
 # CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
