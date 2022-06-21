@@ -55,6 +55,5 @@ def eliminar_producto(request, id):
     producto= Producto.objects.get(idProducto=id)
     producto.delete()
     return redirect(to='lista_mod')
-
             
 
