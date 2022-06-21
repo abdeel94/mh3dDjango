@@ -45,6 +45,11 @@ INSTALLED_APPS = [
     'rest_producto',
     'rest_framework',
     'rest_framework.authtoken',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    
 ]
 
 REST_FRAMEWORK = {
