@@ -3,6 +3,7 @@
 
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
+
 {% block content %}
 {% if process == "connect" %}
 <h1>{% blocktrans with provider.name as provider %}Conectar {{ provider }}{% endblocktrans %}</h1>

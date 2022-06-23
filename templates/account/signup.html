@@ -2,7 +2,7 @@
 
 {% load i18n %}
 
-{% block title %} signup {% endblock %}
+{% block title %} Registro {% endblock %}
 
 {% block content %}
 {% block opciones %}{% endblock %}
@@ -16,7 +16,8 @@
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
+  <button class='btn btn-primary' type="submit">{% trans "Sign Up" %} &raquo;</button>
+  <a href= "/accounts/google/login" class="btn btn-success">Volver</a>
 </form>
 
 {% endblock %}
