@@ -75,7 +75,7 @@
                 <div class="row text-center bg-light p-5 round-5 border border-info rounded rounded-5">
                     {% block opciones %}
                         <div>
-                            <h2 class='mb-4'>Opciones</h2>
+                            <h1 class='mb-4'>Conectarse a través de mH3D</h2>
                             {% if user.is_authenticated %}
                                 <div class="row">
                                     <div class="col">
@@ -90,7 +90,7 @@
                                     <a href="{% url 'account_login' %}" class='btn btn-primary my-2 col-3'>Autentificarse</a>
                                 </div>
                                 <div class="row justify-content-center">
-                                    <a href="{% url 'account_signup' %}" class='btn btn-primary my-2 col-3'>Registrarse</a>
+                                    <a href="{% url 'account_signup' %}" class='btn btn-primary mt-2 mb-4 col-3'>Registrarse</a>
                                 {% endif %}
                             </div>
                         </div>
