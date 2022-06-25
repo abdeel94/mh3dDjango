@@ -5,27 +5,37 @@
   {% trans "Sign Out" %}
 {% endblock %}
 {% block opciones %}
-<div class="container col-8 border border-dark rounded">
-  <h1 class="mt-2 mb-4">Datos de cuenta</h1>
-  <p>Cuenta de Usuario: {{ user.username }}</p>
-  <p>Nombre: {{ user.first_name }}</p>
-  <p>Apellido: {{ user.last_name }}</p>
-  <p>Email de usuario: {{ user.email }}</p>
-  <div class="container my-2">
-    <div class="row justify-content-center">
-      <a href="{% url 'account_email' %}"
-         class='btn btn-primary my-2 text-center col-4'>Cambiar e-mail</a>
+  <div class="container col-8 border border-dark rounded">
+    <h1 class="mt-2 mb-4">Datos de cuenta</h1>
+    <div class="container col-6 ">
+      <div class="row justify-content-center">
+        <p class="bg-secondary text-white rounded ">Cuenta de Usuario: {{ user.username }}</p>
+      </div>
+      <div class="row justify-content-center">
+        <p class="bg-secondary text-white rounded ">Nombre: {{ user.first_name }}</p>
+      </div>
+      <div class="row justify-content-center">
+        <p class="bg-secondary text-white rounded ">Apellido: {{ user.last_name }}</p>
+      </div>
+      <div class="row justify-content-center">
+        <p class="bg-secondary text-white rounded ">Email de usuario: {{ user.email }}</p>
+      </div>
     </div>
-    <div class="row justify-content-center">
-      <a href="{% url 'account_change_password' %}"
-         class='btn btn-primary my-2 col-4'>Cambiar contraseña</a>
-    </div>
-    <div class="row justify-content-center">
-      <a href="{% url 'account_reset_password' %}"
-         class='btn btn-primary my-2 col-4'>Reestablecer contraseña</a>
+    <div class="container my-2">
+      <div class="row justify-content-center">
+        <a href="{% url 'account_email' %}"
+           class='btn btn-primary my-2 text-center col-4'>Cambiar e-mail</a>
+      </div>
+      <div class="row justify-content-center">
+        <a href="{% url 'account_change_password' %}"
+           class='btn btn-primary my-2 col-4'>Cambiar contraseña</a>
+      </div>
+      <div class="row justify-content-center">
+        <a href="{% url 'account_reset_password' %}"
+           class='btn btn-primary my-2 col-4'>Reestablecer contraseña</a>
+      </div>
     </div>
   </div>
-</div>
 {% endblock %}
 {% block content %}
   <div class="container mx-auto col-8 my-5">
